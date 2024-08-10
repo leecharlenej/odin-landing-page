@@ -1,0 +1,171 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+button {
+    font-weight: bold;
+    border-radius: 8px;
+    border:none;
+    padding: 8px 32px;
+    color: white;
+    background: #3882F6;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero,
+.random-info,
+.quote,
+.call-action,
+.footer {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+.hero,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8
+}
+ 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote #text {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote #byline {
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+}
+
+.call-action {
+    background: #3882F6;
+}
+
+
+
+.call-action {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border: 80px solid white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.action-head,
+#logo {
+    color: #F9FAf8
+}
+
+#button-action {
+    border: 3px solid white;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.action-head,
+.random-head,
+#logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.random-info {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.random-head {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    border: 5px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    width: 150px;
+}
+
+.hero-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+.hero-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#sub-main {
+    margin-bottom: 10px;
+}
+
+.bottom-left {
+    background-color: rgb(85, 90, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
