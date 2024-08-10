@@ -3,6 +3,26 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0px;
+}
+
+button {
+    font-weight: bold;
+    border-radius: 8px;
+    border:none;
+    padding: 8px 32px;
+    color: white;
+    background: #3882F6;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero,
@@ -10,8 +30,8 @@ body {
 .quote,
 .call-action,
 .footer {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 
 
@@ -50,18 +70,11 @@ body {
     justify-content: right;
 }
 
-button,
 .call-action {
     background: #3882F6;
 }
 
-button {
-    font-weight: bold;
-    border-radius: 8px;
-    border:none;
-    padding: 4px 16px;
-    color: white;  
-}
+
 
 .call-action {
     display: flex;
@@ -105,7 +118,6 @@ button {
     gap: 30px;
     justify-content: center;
     align-items: center;
-
 }
 
 .card {
@@ -129,17 +141,10 @@ button {
 .hero-top {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
-ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .hero-bottom {
     display: flex;
