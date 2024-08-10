@@ -1,0 +1,70 @@
+* {
+    font-family: Roboto;
+}
+
+.hero #logo,
+.hero #main,
+.footer {
+    color: #F9FAF8;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero #secondary,
+.hero ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero #logo {
+    font-size: 24px;
+}
+
+.hero ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.hero #main {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.quote {
+    padding: 100px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote #text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
+}
+.quote #byline{
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
