@@ -5,3 +5,6 @@ This is the second project from The Odin Project. I need to recreate a web page 
 # Issues
 1. White border around `<body>`:
 - Used Inspect to check: Margin of 8px present.
+
+There is much to learn. (._.)
+Need to try again!
